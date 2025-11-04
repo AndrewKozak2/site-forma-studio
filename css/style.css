@@ -14,6 +14,7 @@ body {
   font-size: 400px;
   font-size: 16px;
   line-height: 1.5;
+  color: #2b2b2b;
 }
 
 a {
@@ -22,6 +23,12 @@ a {
 }
 ul {
   list-style-type: none;
+}
+
+.section__title {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 300;
 }
 
 .container {
@@ -107,9 +114,6 @@ ul {
 
 .services__title {
   margin-bottom: 60px;
-  text-transform: uppercase;
-  font-size: 42px;
-  font-weight: 300;
 }
 
 .services__list {
@@ -134,4 +138,54 @@ ul {
 .services__item-text {
   max-width: 804px;
   width: 100%;
+}
+
+.projects {
+  padding: 150px 0;
+}
+
+.projects__title {
+  margin-bottom: 50px;
+}
+
+.projects__item {
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  max-width: 560px;
+}
+
+.projects__item-img {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.projects__item-title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.projects__item-descr {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.projects__item-text {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.projects__item-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  border: 1px solid #2b2b2b;
+  padding: 20px 70px;
+  line-height: 1.2;
 }
