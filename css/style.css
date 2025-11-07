@@ -29,6 +29,7 @@ ul {
   text-transform: uppercase;
   font-size: 42px;
   font-weight: 300;
+  line-height: 49px;
 }
 
 .container {
@@ -377,7 +378,7 @@ ul {
   text-decoration: underline;
 }
 
-.catalog__form-btn{
+.catalog__form-btn {
   display: inline-block;
   padding: 20px 40px;
   text-transform: uppercase;
@@ -398,4 +399,125 @@ ul {
 
 .gallery img {
   max-width: 100%;
+}
+
+.request {
+  padding: 184px 0;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/request.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.request__inner {
+  padding: 75px 120px;
+  max-width: 1000px;
+  background-color: rgba(22, 22, 22, 0.85);
+}
+
+.request__title {
+  color: #f5f5f5;
+  margin-bottom: 55px;
+}
+
+.request__form {
+  display: flex;
+}
+
+.request__input {
+  width: 100%;
+  display: block;
+  padding: 20px;
+  border: none;
+  background-color: #d9d9d9;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+.request__btn {
+  padding: 20px 46px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  width: 365px;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 100px 0;
+  background-color: #171717;
+  color: #f5f5f5;
+  font-weight: 300;
+}
+
+.footer__inner {
+  margin-bottom: 10px;
+  padding-right: 175px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer__logo {
+  margin-right: auto;
+}
+
+.footer__nav-list {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__social,
+.footer__contacts {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__social-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__contacts-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__img-map {
+  align-self: start;
+}
+
+.footer__contacts-time {
+  display: inline-block;
+  padding-left: 28px;
+  max-width: 150px;
+}
+
+.copy {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 14px;
 }
